@@ -814,6 +814,9 @@ def _import_annotations(request, rq_id, rq_func, pk, format_name):
     return Response(status=status.HTTP_202_ACCEPTED)
 
 def _export_annotations(db_task, rq_id, request, format_name, action, callback, filename):
+    # todo: tmp disable export functions
+    return Response(status=status.HTTP_403_FORBIDDEN)
+
     if action not in {"", "download"}:
         raise serializers.ValidationError(
             "Unexpected action specified for the request")
