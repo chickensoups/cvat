@@ -12,32 +12,31 @@ html {
     -ms-user-select: none;
     user-select: none;
 }
-
 @font-face {
-    font-family: BarlowSemiCondensed-Regular;
-    src: url(fonts/BarlowSemiCondensed-Regular.ttf);
+    font-family: arial;
+    src: url(fonts/arial.ttf);
 }
 
 @font-face {
-    font-family: BarlowSemiCondensed-SemiBold;
-    src: url(fonts/BarlowSemiCondensed-SemiBold.ttf);
+    font-family: arialbd;
+    src: url(fonts/arialbd.ttf);
 }
 
 @font-face {
-    font-family: BarlowSemiCondensed-Bold;
-    src: url(fonts/BarlowSemiCondensed-Bold.ttf);
+    font-family: arialbd;
+    src: url(fonts/arialbd.ttf);
 }
 
 .regular {
-    font-family: BarlowSemiCondensed-Regular;
+    font-family: arial;
 }
 
 .semiBold {
-    font-family: BarlowSemiCondensed-SemiBold;
+    font-family: arialbd;
 }
 
 .bold {
-    font-family: BarlowSemiCondensed-Bold;
+    font-family: arialbd;
 }
 
 .h2 {
