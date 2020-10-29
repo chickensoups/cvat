@@ -44,7 +44,7 @@ function JobListComponent(props: Props & RouteComponentProps): JSX.Element {
         key: 'job',
         render: (id: number): JSX.Element => (
             <div>
-                <Button
+                {/* <Button
                     type='link'
                     onClick={(e: React.MouseEvent): void => {
                         e.preventDefault();
@@ -54,7 +54,7 @@ function JobListComponent(props: Props & RouteComponentProps): JSX.Element {
                 >
                     {`Job #${id}`}
                 </Button>
-                |
+                | */}
                 <Tooltip title='Old version of UI is deprecated and will be removed from
                                 new versions of UI. We still recomend it only if you use
                                 specific features from it like cuboids annotation.'

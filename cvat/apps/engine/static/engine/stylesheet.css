@@ -251,9 +251,9 @@
 }
 
 .shapeText {
-    font-size: 0.12em;
+    font-size: 0.14em;
     fill: white;
-    stroke:black;
+    text-shadow: 0px 0px 4px black;
     stroke-width: 0.05;
     cursor: default;
 }
