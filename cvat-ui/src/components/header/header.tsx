@@ -198,7 +198,7 @@ function HeaderContainer(props: Props): JSX.Element {
                     )}
             </div>
             <div className='cvat-right-header'>
-                <Button
+                {/* <Button
                     className='cvat-header-button'
                     type='link'
                     onClick={
@@ -225,7 +225,7 @@ function HeaderContainer(props: Props): JSX.Element {
                 >
                     <Icon type='question-circle' />
                     Help
-                </Button>
+                </Button> */}
                 <Dropdown overlay={menu} className='cvat-header-menu-dropdown'>
                     <span>
                         <Icon className='cvat-header-account-icon' component={AccountIcon} />
